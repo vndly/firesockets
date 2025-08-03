@@ -41,14 +41,14 @@ When the socket is closed
 
 ## DATABASE
 
-Socket
-id: string
-created: datetime
-client: Collection<Message>
-server: Colection<Message>
-status: open | closed
+### Socket
+* id: string
+* created: datetime
+* client: Collection<Message>
+* server: Colection<Message>
+* status: open | closed
 
-Message
-id: string
-message: string
-created: datetime
+### Message
+* id: string
+* message: string
+* created: datetime
